@@ -1,0 +1,13 @@
+<div class="sw-container">
+  <div class="stopwatch">
+    <span>{{Hour}} : </span>
+    <span>{{Min}} : </span>
+    <span>{{Sec}}</span>
+  </div>
+  <div class="button-container">
+    <button (click)="start()" >Start</button>
+    <button (click)="pause()" >Pause</button>
+    <button (click)="resume()" >Resume</button>
+    <button (click)="reset()">Reset</button>
+  </div>
+</div>

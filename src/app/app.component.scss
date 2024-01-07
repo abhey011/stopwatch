@@ -1,0 +1,28 @@
+:host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.sw-container{
+    background-image: linear-gradient(to right,#6288df,#7774ed);
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    box-shadow: 0px 3px 6px rgba(129,129,129,0.16),rgba(105,105,105,0.23);
+}
+.stopwatch{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.button-container{
+    button{
+        background: #fff;
+    }
+    
+}
